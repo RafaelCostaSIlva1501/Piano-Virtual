@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 95%;
+    min-width: 670px;
     max-width: 800px;
 }
 
@@ -31,10 +32,11 @@ body {
     background-color: #0e0e0e;
 }
 
-
 .piano-keys {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 670px;
     height: 210px;
     padding: 10px 30px;
     background-color: #1b1a1a;
@@ -68,8 +70,7 @@ body {
     z-index: 1;
 }
 
-.piano-keys 
-.white:nth-child(5),
+.piano-keys .white:nth-child(5),
 .white:nth-child(12),
 .white:nth-child(17) {
     margin-right: 20px;
